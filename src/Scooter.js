@@ -1,6 +1,6 @@
 class Scooter {
   static nextSerial = 1;
-  constructor(station, user, serial, nextSerial, charge, isBroken) {
+  constructor(station, user, serial, charge, isBroken) {
     this.station = station;
     this.user = null;
     this.user = nextSerial;

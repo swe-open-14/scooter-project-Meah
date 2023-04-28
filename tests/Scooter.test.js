@@ -27,9 +27,9 @@ describe('scooter methods', () => {
   }).toThrow("Scooter is low battery and or damaged")
   scooter0.charge = 100;
   scooter0.isBroken = true;
-  expect()) => {
+  expect() => {
     scooter0.rent(user)
-  }.toThrow("Scooter is low battery and or damaged") 
+  }.toThrow("Scooter is low battery and or damaged") {
 });
 
   //dock method
